@@ -1,4 +1,3 @@
-import { supabase } from './lib/supabase'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar/Navbar";
@@ -14,7 +13,6 @@ import SignupPage from "./pages/SignupPage";
 import LoginPage from "./pages/LoginPage";
 
 function App() {
-console.log('Supabase connected:', supabase)
   return (
     <BrowserRouter>
       <div className="app-shell">
